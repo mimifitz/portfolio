@@ -207,18 +207,36 @@
         </div>
     </section>
     <section class="contact" id="contact">
-        <div div class="container">
+        <section div class="container">
             <div class="section-heading">
                 <h1>Contact</h1>
                 <h6>Let work together</h6>
                 <form action="">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Enter your email..." required>
+                    <label for="service">Services:</label>
+                    <select name="Services" id="services">
+                        <option value="">Web Developer</option>
+                        <option value="">Sql Data Analyst</option>
+                        <option value="">Web Developer/Sql Data Analyst</option>
+                    </select>
+                    <label for="subject">Subject:</label>
+                    <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                    <input type="submit" id="email" value="Submit">
                 </form>
             </div>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-            <script src="main.js"></script>
+        </section>
+        <footer class="copyright">
+            <i class="up" id="up">
+                <i class="fas.fa-chevron-up"></i>
+                <p>&copy; 2020 Mimi Fitz</p>
+                </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="main.js"></script>
 </body>
 
 </html>
