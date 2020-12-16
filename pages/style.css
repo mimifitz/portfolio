@@ -32,11 +32,71 @@ p{
 img{
     width: 100%;
 }
-header
+/*Start header*/
 
 header{
     width:100%;
     height: 100vh;
-    position: fixed;
-    background-image: url();
 }
+
+.top-nav{
+width : 100%;
+height : 100vh;
+position: fixed;
+background-image : url("images/header.png") no-repeat fixed;
+/*background-color: green;*/
+background-size: cover;
+border-bottom-right-radius: 100%;
+border-bottom-left-radius : 100%;
+transition: all 650ms cubic-bezier(1,0,0,1);
+}
+
+.nav-list{
+    list-style: none;
+    width:100%;
+    height: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+li{
+    margin: 0 2rem;
+}
+.nav-link{
+font-family : 'Kaushan Script',cursive;
+font-size: 5;
+padding:1rem;
+}
+.nav-link:hover,
+.nav-link:focus{
+    background: linear-gradient(to top, #02411a, #ff00b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+
+}
+/*End header*/
+
+/*Start about*/
+/*End about*/
+
+/*Start services*/
+/*End services*/
+
+/*Start portfolio*/
+/*End services*/
+
+/*Start timeline*/
+/*End timeline*/
+
+/*Start contact*/
+/*End contact*/
+
+/*Start footer*/
+/*End footer*/
+
+/*Start animations*/
+/*End animations*/
+
+/*Start media queries*/
+/*End media queries*/
+
