@@ -7,7 +7,7 @@
 
 html{
 font-size: 10;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 color: #eee;
 }
 
@@ -44,7 +44,7 @@ width : 100%;
 height : 100vh;
 position: fixed;
 /*background: url("images/header.png") no-repeat fixed;*/
-/*background-color: green;*/
+background-color: rgb(36, 46, 36);
 background-size: cover;
 border-bottom-right-radius: 100%;
 border-bottom-left-radius : 100%;
@@ -69,15 +69,16 @@ padding:1rem;
 }
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top, #02411a, #ff00b3);
-    background-clip: text;
-    -webkit-text-fill-color:transparent;
+background : linear-gradient(to right, #ff00b3, #02411a);
+background-clip: text;
+-webkit-text-fill-color:transparent;
 
 }
 .top-nav.open{
     top: 0;
     border-radius: initial;
 }
+
 .menu-toggler{
     position: absolute;
     top: 0;
@@ -106,15 +107,18 @@ border-radius: .8rem;
 .bar.half{
     width: 50%;
 }
+
 .bar.start{
     transform-origin: right;
     transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
 }
+
 .open.bar.start{
     transform: rotate(-450deg) translate(.8rem);
 }
-.open.bar.start {
-    transform : rotate(-450 deg)translate(-.8rem);
+
+.open.bar.end {
+    transform : rotate(-450deg) translate(-.8rem);
 }
 
 
@@ -122,7 +126,6 @@ border-radius: .8rem;
     align-self: flex-end;
     transform-origin : left;
 transition : transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
-
 
 }
 
