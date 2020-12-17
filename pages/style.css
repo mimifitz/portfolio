@@ -17,6 +17,9 @@ body{
 background : url("images/finalcover.png") no-repeat center fixed;
 background-size: cover;
 }
+section{
+    padding:6rem;
+}
 
 a{
 text-decoration: none;
@@ -45,7 +48,8 @@ img{
 
 .section-heading{
     text-align: center;
-    margin-top: 10rem;
+    margin-bottom
+    : 10rem;
 }
 
 .section-heading h1 {
@@ -86,7 +90,10 @@ img{
     font-size: 1.6rem;
     font-weight: 300;
 }
+.has.margin-right{
+    margin-right: 5rem;
 
+}
 
 
 
@@ -260,7 +267,6 @@ margin-left: 5rem;
 }
 .social-media{
     margin-top: 2rem;
-    margin:
 }
 
 .social-media i{
@@ -326,13 +332,60 @@ transform: rotate(-45deg);
 
 /*Start portfolio*/
 
-.profile-description {
+.portfolio-item{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom:5rem;
+}
+
+.portfolio-item:last-child{
+    margin-bottom: 0;
 
 }
-.profile-description{
+.profile-img{
     flex: 1;
+
 }
-/*End services*/
+
+.portfolio-description h1{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+
+.portfolio-description h6{
+   font-size: 1.5rem;
+   text-transform: uppercase;
+   font-weight: 300;
+   opacity: 0.3;
+}
+
+
+.portfolio-description .cta{
+   display: inline-block;
+   margin-top: 2.5rem;
+   font-size: 1.5rem;
+   text-transform: uppercase;
+   color: #ddc919d8;
+   font-weight: bold;
+   transition: color 650ms;
+}
+
+.portfolio-description .cta:hover{
+color: #ff00b3;
+
+
+}
+
+
+
+
+
+
+
+/*End portfolio*/
 
 /*Start timeline*/
 /*End timeline*/
