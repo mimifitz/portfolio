@@ -180,6 +180,16 @@ font-weight: 300;
 
 }
 
+.profile-img{
+    flex: 1;
+    margin-right: 50rem;
+}
+
+.about-details{
+    flex:1;
+
+}
+
 
 
 
