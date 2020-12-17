@@ -163,8 +163,23 @@ user-select: none;
     align-items: center;
     justify-content: center;
 }
+.about-heading{
+    text-align:center;
+    text-transform: uppercase;
+    line-break: 0;
+    margin: 5rem;
+}
 
-.about .heading
+.about-heading h1{
+  font-size: 10rem;
+  opacity: .3;
+}
+.about-heading h6{
+font-size: 10rem;
+font-weight: 300;
+
+}
+
 
 
 
