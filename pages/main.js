@@ -5,3 +5,5 @@ $(document).ready(function () {
 
     });
 });
+
+/*Appearancing of hamburger menu by click on the icon*/
