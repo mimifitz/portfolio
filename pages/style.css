@@ -317,18 +317,18 @@ text-align: center;
 }
 
 .icon-container i{
-color:white;
+color: #02411a;
 font-size: 5rem;
 margin:auto;
 transform: rotate(-45deg);
-
-
-
 }
 /*End services*/
 
 /*Start portfolio*/
 
+.profile-description {
+
+}
 .profile-description{
     flex: 1;
 }
