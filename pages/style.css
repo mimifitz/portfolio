@@ -479,18 +479,19 @@ background-color: white;
 /*End contact*/
 
 /*Start footer*/
-.copyright{
+.footer{
     width:100%;
+    text-align: center;
     background-color: #ddc919d8;
-    background-size: cover;
     padding: 2rem 0;
     position: relative;
 }
 .up{
     position: absolute;
-    width: 15rem;
+    width: 5rem;
     height: 5rem;
     top: 1rem;
+    border-radius: 100%;
     display: flex;
 }
 
