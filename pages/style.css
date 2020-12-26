@@ -48,8 +48,7 @@ img{
 
 .section-heading{
     text-align: center;
-    margin-bottom
-    : 10rem;
+    margin-bottom: 10rem;
 }
 
 .section-heading h1 {
@@ -481,16 +480,28 @@ background-color: white;
 
 /*Start footer*/
 .copyright{
-    width:   100%;
-    text-align: center;
-    background-color: #02411a;
+    width:100%;
+    background-color: #ddc919d8;
+    background-size: cover;
     padding: 2rem 0;
     position: relative;
 }
 .up{
     position: absolute;
-    width: 5rem;
+    width: 15rem;
     height: 5rem;
+    top: 1rem;
+    display: flex;
+}
+
+.up i{
+color:#ff00b3;
+font-size: 2rem;
+margin: auto;
+}
+
+.copyright p{
+    font-size: 1.4rem;
 }
 
 /*End footer*/
