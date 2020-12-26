@@ -480,6 +480,19 @@ background-color: white;
 /*End contact*/
 
 /*Start footer*/
+.copyright{
+    width:   100%;
+    text-align: center;
+    background-color: #02411a;
+    padding: 2rem 0;
+    position: relative;
+}
+.up{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+}
+
 /*End footer*/
 
 /*Start animations*/
