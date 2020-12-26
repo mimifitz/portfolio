@@ -413,26 +413,26 @@ width:70%;
     border:none;
 }
 
-.timeline.date::before,
-.timeline.date::after{
+.timeline .date::before,
+.timeline .date::after{
 position: absolute;
 display: block;
 top: 50%;
 transform:translateX(-50%);
 }
 
-.timeline.date::before{
+.timeline .date::before{
    content: attr(data-date);
-   left: -21;
+   left: -21rem;
    text-align: right;
    min-width: 12rem;
    font-size: 1.5rem;
 }
-.timeline.date::after{
+.timeline .date::after{
     content: '';
-    box-shadow: #ff00b3;
+    box-shadow:0 0 0 4px #ff00b3;
     border-radius:100%;
-    left: -7.9rem;
+    left: -7.7rem;
     height:1.5rem;
     width:1.5rem;
 
