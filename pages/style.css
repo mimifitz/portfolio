@@ -17,8 +17,9 @@ body{
 background : url("images/finalcover.png") no-repeat center fixed;
 background-size: cover;
 }
+
 section{
-    padding:6rem;
+    padding:6rem 0;
 }
 
 a{
@@ -498,6 +499,7 @@ background-color: white;
     border-radius: 100%;
     display: flex;
     animation:  pulse 2s infinite;
+    cursor: pointer;
 }
 
 .up i{
@@ -515,11 +517,28 @@ margin: auto;
 /*Start animations*/
 @keyframes pulse{
     0%{
-        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+        box-shadow: 0 0 0 0 #ff00b3(253, 87, 191, 0.99);
     }
+
+    70%{
+        box-shadow: 0 0 0 2rem #02411a(253, 87, 191, 0);
+    }
+
+  100% {
+    box-shadow: 0 0 0 0 #02411a(253, 87, 191, 0);
+
+}
+
 }
 /*End animations*/
 
 /*Start media queries*/
-/*End media queries*/
+@media  screen and(max-width: 768px){
+ body{
+background: url("images/finalcover.png") no-repeat center fixed;
+background-size: cover;
+ }
 
+}
+
+/*End media queries*/
