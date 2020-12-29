@@ -274,12 +274,18 @@ margin-left: 5rem;
     transition: color 650ms;
 }
 
+.fa-file:hover {
+color: #ddc919d8;
+
+}
+
+
 .fa-linkedin-square:hover{
     color:rgb(0, 110, 255);
 }
 
 .fa-github-square:hover{
-color: rgb(115, 28, 155);
+color: rgb(128, 16, 172);
 }
 
 .fa-youtube-square:hover{
