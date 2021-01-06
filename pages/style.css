@@ -118,7 +118,7 @@ transition: all 650ms cubic-bezier(1,0,0,1);
 
 .nav-list{
     list-style: none;
-    font-size: medium;
+    font-size: 2.5vw;
     width:100%;
     height: 100%;
     display:flex;
@@ -137,7 +137,8 @@ padding:1rem;
 
 .nav-link:hover,
 .nav-link:focus{
-background : linear-gradient(to right, #ff00b3, #02411a);
+background: linear-gradient(to right, #ff00b3,#ddc919d8);
+
 -webkit-background-clip: text;
 -webkit-text-fill-color:transparent;
 }
@@ -526,7 +527,6 @@ margin: auto;
 
   100% {
     box-shadow: 0 0 0 0 #02411a(253, 87, 191, 0);
-
 }
 
 }
@@ -551,7 +551,7 @@ background-size: cover;
      flex-direction: column;
  }
 
- li{
+ .li{
      margin: 2rem 0rem;
  }
 
@@ -588,12 +588,10 @@ background-size: cover;
 
  .timeline .date:before{
      left: -20rem;
-
  }
 
 .timeline .date:after{
     left: 5.9rem;
-
 }
 
 }
