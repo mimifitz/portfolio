@@ -261,9 +261,15 @@ line-height: 2rem;
 text-align: justify;
 margin-left: 5rem;
 }
+.bold{
+color: #ddc919d8;
+
+}
 
 .profile-img{
     flex: 1;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .about-details{
@@ -319,7 +325,8 @@ text-align: center;
 .skills h1{
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin: 2rem -2px 2rem 0;
+    margin: 3.5rem -2px 2rem 0;
+    font-size: 3rem;
 }
 
 .icon-container{
@@ -339,6 +346,13 @@ font-size: 5rem;
 margin:auto;
 transform: rotate(-45deg);
 }
+
+.open-to-suggestions {
+    color: #ddc919d8;
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+
 /*End services*/
 
 /*Start portfolio*/
