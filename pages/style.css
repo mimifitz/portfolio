@@ -96,10 +96,6 @@ img{
     font-weight: 300;
     font-style: italic;
 }
-.portfolio-img-has-margin-right{
-margin-right: 5rem;
-}
-
 
 /*Start header*/
 
@@ -373,23 +369,25 @@ margin-bottom:5rem;
     margin-bottom: 0;
 
 }
-.profile-img{
-    flex: 1;
 
-}
 
 .portfolio-description h1{
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: 700;
     margin: 1rem 0;
 }
 
 
 .portfolio-description h6{
-   font-size: 1.5rem;
+   font-size: 1.8rem;
    text-transform: uppercase;
-   font-weight: 300;
+   font-weight: 700;
    opacity: 0.3;
+}
+
+.portfolio-description ul{
+    font-size: 1.3rem;
+    margin-top: 1em;
 }
 
 
@@ -405,9 +403,21 @@ margin-bottom:5rem;
 
 .portfolio-description .cta:hover{
 color: #ff00b3;
+}
 
+.portfolio-img-has-margin-right {
+    margin-right: 5rem;
+border-radius: 10px 20px;
+overflow: hidden;
 
 }
+.portfolio-img {
+    margin-left: 5rem;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
 
 /*End portfolio*/
 
