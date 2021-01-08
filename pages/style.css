@@ -223,8 +223,9 @@ user-select: none;
 }
 
 .landing-text h6{
-    font-size: 2rem;
-    font-weight: 300;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: -3rem;
 }
 
 /*End header*/
@@ -570,6 +571,7 @@ background-size: cover;
  .landing-text h1{
      font-size: 1.7rem;
  }
+
 
  .nav-list{
      flex-direction: column;
