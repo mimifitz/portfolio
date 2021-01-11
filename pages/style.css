@@ -487,17 +487,18 @@ transform:translateX(-50%);
 
 form {
     width: 70%;
-    margin: 0 auto;
+    margin: 6rem auto;
 }
 
 form label{
 font-size: 1.5rem;
+font-weight : bold;
 }
 
 input,select,textarea{
     width: 100%;
     padding:1rem;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     border: none;
     outline-color: #ff00b3;
 }
@@ -507,6 +508,7 @@ input[type="submit"]{
     background-color: #ff00b3;
     color: #eeee;
     padding: 1rem 2rem;
+    font-size : 1.5rem;
     border-radius: .8rem;
     cursor: pointer;
     transition: background-color 650ms;
