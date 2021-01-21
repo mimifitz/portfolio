@@ -277,7 +277,7 @@
             <div class="section-heading">
                 <h1>Contact</h1>
                 <h6><b>Let's Work Together & Impact Positively</b></h6>
-                <form action="contact.php" method="post">
+                <form action="contact.php" method="POST">
                     <label for="name">Name or Company Name:</label>
                     <input type="text" id="name" name="name" placeholder="Please enter your name or company's name..."
                         pattern=[A-Z\sa-z]{3,20} required>
