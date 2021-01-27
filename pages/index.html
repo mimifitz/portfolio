@@ -276,11 +276,13 @@
                 <h1>Contact</h1>
                 <h6><b>Let's Work Together & Impact Positively</b></h6>
                 <form action="contact.php" method="POST">
-                    <label for="name">Name or Company Name:</label>
+                    <label for="name">Name or Company's Name:</label>
                     <input type="text" id="name" name="name" placeholder="Please enter your name or company's name..."
                         pattern=[A-Z\sa-z]{3,20} required>
                     <label for="email">Email:</label>
                     <input type="text" id="email" name="email" placeholder="Akua@email.com" required>
+                    <label for="contact">Contact:</label>
+                    <input type="phone" id="contact" name="contact" placeholder="Please leave your contact" required>
                     <label for=" services">Services:</label>
                     <select name="services" id="services" size="1">
                         <option value="option 1">Web Developer</option>
