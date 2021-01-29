@@ -362,7 +362,7 @@ transform: rotate(-45deg);
 display: flex;
 align-items: center;
 justify-content: center;
-margin-bottom:5rem;
+margin-bottom:8rem;
 }
 
 .portfolio-item:last-child{
@@ -370,6 +370,10 @@ margin-bottom:5rem;
 
 }
 
+.portfolio-description{
+text-align : justify;
+
+}
 
 .portfolio-description h1{
     font-size: 3rem;
@@ -379,7 +383,7 @@ margin-bottom:5rem;
 
 
 .portfolio-description h6{
-   font-size: 1.8rem;
+   font-size: 2rem;
    text-transform: uppercase;
    font-weight: 700;
    opacity: 0.3;
@@ -388,6 +392,7 @@ margin-bottom:5rem;
 .portfolio-description ul{
     font-size: 1.3rem;
     margin-top: 1em;
+    text-align: justify;
 }
 
 
@@ -404,6 +409,7 @@ margin-bottom:5rem;
 .portfolio-description .cta:hover{
 color: #ff00b3;
 }
+
 
 .portfolio-img-has-margin-right {
     margin-right: 5rem;
