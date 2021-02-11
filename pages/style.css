@@ -541,19 +541,23 @@ background-color: white;
     top: 1rem;
     border-radius: 100%;
     display: flex;
-    animation: pulse 2s infinite;
+    animation: pulse 5s;
+    animation-iteration-count:infinite;
+
     cursor: pointer;
+
 }
 
 .up i{
     position: absolute;
     right: 15px;
-color:#ff00b3;
-font-size: 5rem;
+    color:#ff00b3;
+    font-size: 5rem;
 }
 
-.copyright p{
+.copyright .p{
     font-size: 1.4rem;
+    margin-top: 40rem;
 }
 
 /*End footer*/
