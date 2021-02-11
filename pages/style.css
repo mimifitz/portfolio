@@ -536,7 +536,6 @@ background-color: white;
     bottom: 0;
 }
 .up{
-    position: right;
     width: 5rem;
     height: 5rem;
     top: 1rem;
@@ -547,9 +546,10 @@ background-color: white;
 }
 
 .up i{
+    position: absolute;
+    right: 15px;
 color:#ff00b3;
 font-size: 5rem;
-margin: auto;
 }
 
 .copyright p{
