@@ -62,7 +62,7 @@ img{
     margin-bottom: 1rem;
 }
 
-/* for a white line with ball in the middle under services */
+/* for a yellow line with ball in the middle under services */
 
 .section-heading h1::before,
 .section-heading h1::after{
@@ -76,7 +76,7 @@ img{
 
 
 }
-/* for a white line with ball in the middle under services */
+/* for a yellow line with ball in the middle under services */
 .section-heading h1::before{
     width: 20rem;
     height:3px;
@@ -152,8 +152,8 @@ background: linear-gradient(to right, #ff00b3,#ddc919d8);
 .menu-toggler{
     position: absolute;
     top: 0;
-    margin-top: 2rem;
-    right: 5rem;
+    margin-top: 5rem;
+    right: 7rem;
     width: 5rem;
     height: 4rem;
     display: flex;
@@ -532,7 +532,7 @@ background-color: white;
     width:100%;
     background-color: #ddc919d8;
     position:fixed;
-    height: 100px;
+    height: 170px;
     bottom: 0;
 }
 .up{
@@ -541,11 +541,6 @@ background-color: white;
     top: 1rem;
     border-radius: 100%;
     display: flex;
-    animation: pulse 5s;
-    animation-iteration-count:infinite;
-
-    cursor: pointer;
-
 }
 
 .up i{
@@ -555,10 +550,33 @@ background-color: white;
     font-size: 5rem;
 }
 
-.copyright .p{
-    font-size: 1.4rem;
-    margin-top: 40rem;
+.footer-text{
+text-align: center;
+margin-top: -40px;
+
 }
+
+.footer-contact li {
+    display: block;
+}
+
+
+.footer-contact{
+    position: relative;
+    text-decoration: none;
+    font-size: 2rem;
+    list-style: none;
+    text-align: center;
+
+
+
+}
+.footer hr{
+border: 2px solid#02411a;
+margin-bottom:15px;
+margin-top:10px;
+}
+
 
 /*End footer*/
 
