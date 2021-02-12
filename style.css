@@ -557,7 +557,9 @@ margin-top: -40px;
 }
 
 .footer-contact li {
-    display: block;
+    display: inline-block;
+margin:2 0 2 0rem;
+font-size: 4rem;
 }
 
 
