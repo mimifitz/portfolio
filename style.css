@@ -73,8 +73,6 @@ img{
     left: 50%;
     transform: translateX(-50%);
     background-color: #ddc919d8;
-
-
 }
 /* for a yellow line with ball in the middle under services */
 .section-heading h1::before{
@@ -432,12 +430,15 @@ overflow: hidden;
 border-left: 4px solid#ddc919d8;
 border-radius: .8rem;
 background-color:rgb(0,0,0,0.05);
-margin:0 auto;
+margin: 0 auto;
 position: relative;
 padding:5rem;
 list-style: none;
 text-align:left;
 width:70%;
+}
+.timeline li{
+margin: 5rem;
 }
 .timeline h1{
     font-size: 2rem;
@@ -478,7 +479,7 @@ transform:translateX(-50%);
     content: '';
     box-shadow:0 0 0 4px #ff00b3;
     border-radius:100%;
-    left: -7.1rem;
+    left: -10.1rem;
     height:1.5rem;
     width:1.5rem;
     background-color: #02411a;
